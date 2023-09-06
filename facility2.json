@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org",
+    "@type": "facility",
+    "location": {
+        "@type": "Place",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "89.020323",
+            "longitude": "23.2632036"
+          }
+        },
+    "osid":"BD2020021RTWH1D",
+    "wikirate":"13582504",
+    "name":"Divine Garments Limited"
+
+}

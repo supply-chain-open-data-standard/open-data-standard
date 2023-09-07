@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "facility": "https://map.rmg.org.bd/schema#Facility",
+    "name": "https://map.rmg.org.bd/schema#Name",
+    "location": "https://map.rmg.org.bd/schema#Location",
+    "coordinates": "https://map.rmg.org.bd/schema#Coordinates",
+    "latitude": "https://map.rmg.org.bd/schema#Latitude",
+    "longitude": "https://map.rmg.org.bd/schema#Longitude",
+    "last_update_date": "https://map.rmg.org.bd/schema#LastUpdateDate",
+    "products": {
+      "@id": "https://map.rmg.org.bd/schema#Products",
+      "@type": "https://map.rmg.org.bd/schema#Product"
+    },
+    "brands": {
+      "@id": "https://map.rmg.org.bd/schema#Brands",
+      "@type": "https://map.rmg.org.bd/schema#Brand"
+    },
+    "exported_countries": {
+      "@id": "https://map.rmg.org.bd/schema#ExportedCountries",
+      "@type": "https://map.rmg.org.bd/schema#Country"
+    },
+    "establishment_year": "https://map.rmg.org.bd/schema#EstablishmentYear",
+    "memberships": {
+      "@id": "https://map.rmg.org.bd/schema#Memberships",
+      "@type": "https://map.rmg.org.bd/schema#Membership"
+    }
+  },
+  "facilities": [
+    {
+      "@type": "facility",
+      "facility_id": "5f6b9ae61c207c654b7e2241",
+      "name": {
+        "@type": "name",
+        "value": "Facility 1"
+      },
+      "location": {
+        "@type": "location",
+        "city": "City 1",
+        "state": "State 1",
+        "country": "Country 1",
+        "coordinates": {
+          "@type": "coordinates",
+          "latitude": {
+            "@type": "latitude",
+            "value": 123.456,
+            "source": {
+              "@type": "source",
+              "value": "Source A"
+            },
+            "last_update_date": "2023-09-05"
+          },
+          "longitude": {
+            "@type": "longitude",
+            "value": 789.012,
+            "source": {
+              "@type": "source",
+              "value": "Source B"
+            },
+            "last_update_date": "2023-09-05"
+          }
+        },
+        "last_update_date": "2023-09-04"
+      },
+      "establishment_year": "2000",
+      "source": {
+        "@type": "source",
+        "value": "Source E"
+      },
+      "last_update_date": "2023-09-03",
+      "products": [
+        {
+          "@type": "product",
+          "value": "Product A"
+          
+        },
+        {
+          "@type": "product",
+          "value": "Product B"
+        }
+      ],
+      "brands": [
+        {
+          "@type": "brand",
+          "value": "Brand X"
+        },
+        {
+          "@type": "brand",
+          "value": "Brand Y"
+        }
+      ],
+      "exported_countries": [
+        {
+          "@type": "country",
+          "value": "Country X"
+        },
+        {
+          "@type": "country",
+          "value": "Country Y"
+        }
+      ],
+      "memberships": [
+        {
+          "@type": "membership",
+          "value": "BGMEA"
+        },
+        {
+          "@type": "membership",
+          "value": "Accord"
+        }
+      ]
+    }
+  ]
+}

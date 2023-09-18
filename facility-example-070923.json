@@ -1,0 +1,56 @@
+{
+    "@type": "Entity/Facility",
+    "name": "Facility Name",
+    "address": {
+        "@type": "PostalAddress"
+    },
+    "os_id": {
+        "@type": "text"
+    },
+    "geo": {
+        "@type" : "GeoCoordinates"
+    },
+    "facility_type": {
+        "@type": "text"
+    },
+    "process_type": {
+        "@type": "text"
+    },
+    "relationships": [
+        {
+            "@type": "RelationshipVendor",
+            "related_to": {
+                "@type": "Entity/Brand",
+                "wikirate_id": {
+                    "@type" : "Number"
+                },
+                "name": {
+                    "@type": "text"
+                }
+            },
+            "collection_date": {
+                "@type": "Date"
+            }
+        }
+    ],
+    "identifiers": [{
+        "@type": "Identifier"
+    }],
+    "data": [{
+        "name": {
+            "@type": "text"
+        },
+        "value": {
+            "@type": "text|number"
+        },
+        "url": {
+            "@type" : "URL"
+        },
+        "source": {
+            "@type": "URL"
+        },
+        "collection_date": {
+            "@type": "Date"
+        }
+    }]
+}
